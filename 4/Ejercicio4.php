@@ -42,7 +42,7 @@
         }
     }
 
-    function devuelveNombreCorrecto(){
+    function altern_if(){
         /* Alternativa de llaves "{}" if else ==> ":" (dos puntos), endif
         La alternativa consiste en reemplazar el uso de la llave de apertura de bloque por dos
         puntos (:) y la llave de cierre de bloque por la palabra clave end + nombre de estructura
@@ -64,7 +64,7 @@
         endif; //expresion de cierre
     }
 
-    function devuelveListaFrutas(){
+    function bucle_while(){
         echo "<h3>Cuarto Ejemplo</h3>";
 
         $arrayFrutas = array("naranja", "plátano", "manzana", "sandia");
@@ -82,7 +82,7 @@
 
     }
 
-    function devuelveValorDO(){
+    function bucle_DoWhile(){
         echo "<h3>Quinto Ejemplo</h3>";
 
         $varDo = 0;
@@ -99,7 +99,7 @@
         while ($varDo <= 3 && $varCont <= 3); // Muestra 4 veces el mensaje.
     }
 
-    function devuelveColorFavorito(){
+    function sentencia_switch(){
         echo "<h3>Sexto Ejemplo</h3>";
 
         $micolor = "azul";
@@ -124,7 +124,7 @@
     }
 
     //primer ejemplo con bucle for
-    function devuelve_valor_vuelta(){
+    function bucle_for(){
         // parame_1 || parame_2 || parame_3
         for ($varFor=1; $varFor<=3; $varFor++)
         {
